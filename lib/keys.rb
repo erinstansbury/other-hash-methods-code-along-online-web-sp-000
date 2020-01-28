@@ -9,7 +9,5 @@ require 'pry'
 # }
 
 def get_the_keys(groceries)
-  groceries.each do |key, value|
-    puts "#{key}"
-  end
+  groceries.keys
 end
